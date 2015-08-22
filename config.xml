@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.gurudwara.nanaksar.shahdra" version="1.0.0">
-  <name>Gurudwara</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
+  <name>Gurudwara Nanaksar</name>
+  <description>Waheguru ji ka khalsa waheguru ji ki fateh</description>
+  <author href="http://portfolio.larva.co.in" email="info@larva.co.in">Larva Technologies Pvt. Ltd.</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>

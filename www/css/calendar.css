@@ -1,0 +1,92 @@
+.page-container{
+    max-width: 700px;
+    padding-top: 20px;
+}
+
+div.hasDatepicker {
+    margin: 0px auto 20px;
+    max-width: 320px;
+}
+a.ui-datepicker-next, a.ui-datepicker-prev {
+    top: 2px !important;
+    display: none;
+}
+
+.movie-list thead th,
+.movie-list tbody tr:last-child {
+    border-bottom: 1px solid #d6d6d6; /* non-RGBA fallback */
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.movie-list tbody th,
+.movie-list tbody td {
+    border-bottom: 1px solid #e6e6e6; /* non-RGBA fallback  */
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.movie-list tbody tr:last-child th,
+.movie-list tbody tr:last-child td {
+    border-bottom: 0;
+}
+.movie-list tbody tr:nth-child(odd) td,
+.movie-list tbody tr:nth-child(odd) th {
+    background-color: #eeeeee; /* non-RGBA fallback  */
+    background-color: rgba(0,0,0,.04);
+}
+
+.table-container {
+    max-width: 400px;
+    margin: 0px auto 20px;
+    text-transform: none;
+}
+
+.table-container table {
+    background-color: #F3F3F3;
+    border: 1px solid #CCC;
+    border-radius: 4px !important;
+}
+
+.table-container table th, .table-container table td {
+    padding: 8px 20px;
+    font-size: 1.3em;
+}
+
+.specialDate {
+    background-color: #000 !important;
+}
+
+.event-gd a {
+    background-color: #42B373;
+    background-image :none !important;
+    color: #ffffff !important;
+    border-radius: 50%;
+}
+
+/*.event:nth-child(1) a {
+    background-color: #DC143C !important;
+}
+.event:nth-child(2) a {
+    background-color: #00FFFF !important;
+}
+.event:nth-child(3) a {
+    background-color: #008B8B !important;
+}
+.event:nth-child(4) a {
+    background-color: #B8860B !important;
+}
+.event:nth-child(5) a {
+    background-color: #006400 !important;
+}
+.event:nth-child(6) a {
+    background-color: #FF8C00 !important;
+}
+.event:nth-child(7) a {
+    background-color: #FF1493 !important;
+}
+.event:nth-child(8) a {
+    background-color: #DAA520 !important;
+}
+.event:nth-child(9) a {
+    background-color: #000080 !important;
+}
+.event:nth-child(10) a {
+    background-color: #FF0000 !important;
+}*/

@@ -1,0 +1,77 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html data-ng-app="gurudwara">
+    <head>
+        <title>Home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="includes/jquery-mobile/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/theme.css" />
+        <link rel="stylesheet" href="css/home.css" />
+        <script src="includes/jquery-1.9.1.min.js"></script>
+        <script src="includes/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="includes/angular.min.js"></script>
+        <!--<script src="includes/angular-resource.min.js"></script>-->
+        <script src="js/home.js"></script>
+    </head>
+    <body data-ng-controller="homeCTRL">
+        <div id="home-page" data-role="page">
+            <div data-role="header" class="ui-btn-active">
+                <h1>Gurudwara Nanaksar</h1>
+            </div>
+            <div class="page-wrapper">
+                <div class="page-container">
+                    <div class="menu-tiles ui-grid-a text-center">
+                        <div class="ui-block-a">
+                            <a data-ng-click="openGurbani()" href="#">
+                                <img src="img/home/icons/gurubani.png" height="80" width="80"/>
+                                <h3>GURBANI</h3>
+                            </a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a data-ng-click="openHistory()" href="#">
+                                <img src="img/home/icons/history.png" height="80" width="80"/>
+                                <h3>HISTORY</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-tiles ui-grid-a text-center">
+                        <div class="ui-block-a">
+                            <a data-ng-click="openGuru()" href="#">
+                                <img src="img/home/icons/gurus.png" height="80" width="80"/>
+                                <h3>SIKH GURUs</h3>
+                            </a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a data-ng-click="openUpdate()" href="#">
+                                <img src="img/home/icons/updates.png" height="80" width="80"/>
+                                <h3>UPDATES</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="menu-tiles ui-grid-a text-center">
+                        <div class="ui-block-a">
+                            <a data-ng-click="openPhotos()" href="#">
+                                <img src="img/home/icons/photos.png" height="80" width="80"/>
+                                <h3>PHOTOS</h3>
+                            </a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a data-ng-click="openCalendar()" href="#">
+                                <img src="img/home/icons/calendar.png" height="80" width="80"/>
+                                <h3>CALENDAR</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

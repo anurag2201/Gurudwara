@@ -1,0 +1,31 @@
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #2DC3FF;
+}
+
+ul.gd-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.gd-menu li a, ul.gd-menu li a:hover{
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #2DC3FF;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+ul.gd-menu li a:active{
+    background-color: #EFEFEF;
+}
+
+ul.gd-menu li {
+    border-bottom: 2px solid #2DC3FF;
+}
+
+.page-container{
+    max-width: 700px;
+    margin: 0px auto;
+}

@@ -1,0 +1,30 @@
+.menu-tiles .ui-block-a, .menu-tiles .ui-block-b {
+    background-color: #FFF;
+    border-bottom: 1px solid #D4D4D4;
+    
+}
+.menu-tiles:last-child .ui-block-a, .menu-tiles:last-child .ui-block-b {
+    border-bottom: none;
+}
+.menu-tiles .ui-block-a {
+    border-right: 1px solid #D4D4D4;
+}
+.menu-tiles h3 {
+    color: #2DC3FF;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    margin: 10px 0px 0px;
+}
+.menu-tiles a {
+    display: block;
+    padding: 50px 0px;
+    text-decoration: none;
+}
+.menu-tiles a:active{
+    background-color: #EFEFEF;
+}
+
+.page-container{
+    max-width: 500px;
+    margin: 0px auto;
+}

@@ -1,0 +1,68 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html data-ng-app="gurudwara">
+    <head>
+        <title>Gurbani</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" href="includes/jquery-mobile/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="includes/datepicker/jquery.mobile.datepicker.css" />
+        <link rel="stylesheet" href="includes/datepicker/jquery.mobile.datepicker.theme.css" />
+        <link rel="stylesheet" href="includes/datepicker/theme-template.css" />
+        <link rel="stylesheet" href="css/theme.css" />
+        <link rel="stylesheet" href="css/calendar.css" />
+        <script src="includes/jquery-1.9.1.min.js"></script>
+        <script src="includes/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="includes/datepicker/datepicker.js"></script>
+        <script src="includes/datepicker/jquery.mobile.datepicker.js"></script>
+        <script src="includes/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+        <script src="includes/angular.min.js"></script>
+        <script src="js/calendar.js"></script>
+    </head>
+    <body data-ng-controller="homeCTRL">
+        <div id="home-page" data-role="page">
+            <div data-role="header" class="ui-btn-active">
+                <h1>CALENDAR</h1>
+                <a id="header-right-btn" href="#" data-role="button" data-icon="back" class="ui-btn-right" data-rel="back">Back</a>
+            </div>
+            <div class="page-wrapper">
+                <div class="page-container margin-auto clearfix">
+                    <div id="calendar-div"></div>
+                    <br/>
+                    <br/>
+                    <div class="table-container">
+                        <table data-role="table" id="calendar-table" data-mode="reflow" class="movie-list ui-responsive">
+                            <thead>
+                                <tr>
+                                    <th data-priority="1">Date</th>
+                                    <th data-priority="2">Occasion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>15th August</td>
+                                    <td>Independence Day</td>
+                                </tr>
+                                <tr>
+                                    <td>17nd August</td>
+                                    <td>Pooranmashi</td>
+                                </tr>
+                                <tr>
+                                    <td>22nd August</td>
+                                    <td>Baisakhi</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

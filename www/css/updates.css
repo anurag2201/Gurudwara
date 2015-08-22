@@ -13,17 +13,18 @@
 
 .update-container h3 {
     color: #2DC3FF;
+    font-size: 1.5em;
 }
 
 .update-container p {
-    text-transform: lowercase;
-    line-height: 18px;
-    text-align: justify;
+    font-size: 1.3em;                  
+    line-height: 23px;      text-shadow: none;      text-align: justify;      font-weight: 100;      text-transform: initial;
 }
 
 .update-container .admin {
     text-align: right;
     color: #2DC3FF;
+    font-size: 1.3em;
 }
 
 .update-container:first-child {

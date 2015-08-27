@@ -7,7 +7,7 @@ gd.controller('homeCTRL', function($scope, $http) {
 //        window.location = 'gurbani-view.html';
 //    };
     $scope.index = 0;
-    $scope.pageSize = 1;
+    $scope.pageSize = 10;
     $scope.number = 10;
     $scope.updates = [];
     

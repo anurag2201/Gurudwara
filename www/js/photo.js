@@ -6,7 +6,7 @@ gd.controller('homeCTRL', function($scope, $http, $filter, $window) {
     $scope.albumID = window.localStorage.getItem("photoId");
     $scope.photoArr = [];
     $scope.index = 0;
-    $scope.pageSize = 1;
+    $scope.pageSize = 12;
     $scope.number = 10;
     
     $scope.guruArr = [

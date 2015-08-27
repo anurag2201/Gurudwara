@@ -4,7 +4,7 @@ gd.controller('homeCTRL', function($scope, $http) {
     $scope.gurus = ['Nanaksar, Pune, India', 'New Delhi', 'Chandigarh, Punjab', 'Bareily, Uttar Pradesh'];
     
     $scope.index = 0;
-    $scope.pageSize = 1;
+    $scope.pageSize = 15;
     $scope.number = 10;
     $scope.photos = [];
     

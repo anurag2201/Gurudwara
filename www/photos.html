@@ -29,8 +29,10 @@ and open the template in the editor.
             <div class="page-wrapper">
                 <div class="page-container">
                     <ul class="gd-menu">
-                        <li data-ng-repeat="guru in gurus"><a data-ng-click="openGuru(guru)" href="#" id="dashboard">{{guru}}</a></li>
+                        <li data-ng-repeat="guru in photos"><a data-ng-click="openGuru(guru.Title, guru.id)" href="#" id="dashboard">{{guru.Title}}</a></li>
                     </ul>
+                    <br/>
+                    <button data-ng-click="getPhotos()" data-ng-if="rem > 0" class="ui-btn ui-mini">Load more ({{rem}})</button>
                 </div>
             </div>
         </div>

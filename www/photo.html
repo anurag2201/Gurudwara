@@ -31,108 +31,16 @@ and open the template in the editor.
                     <div class="photo-location">
                         {{guruToken}}
                     </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
+                    <div class="photo-grid clearfix">
+                        <div data-ng-repeat="photo in photoArr" class="photo-grid-elt">
+                            <div class="photo-grid-img" style="background-image: url('http://larva.co.in/gurudwara/gurudwara/{{photo.imgPath}}')">
+                                <div data-ng-if="photo.isVideo == 1" data-ng-click="openVideo(photo.videoLink)" class="photo-video-link">
+                                    <a href="#" class="ui-btn ui-shadow ui-corner-all ui-icon-video ui-btn-icon-notext">View</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ui-grid-b photo-grid">
-                        <div class="ui-block-a photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-b photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                        <div class="ui-block-c photo-grid-elt">
-                            <div class="photo-grid-img">
-                                
-                            </div>
-                        </div>
-                    </div>
+                    <button data-ng-click="getPhoto()" data-ng-if="rem > 0" class="ui-btn ui-mini">Load more ({{rem}})</button>
                 </div>
             </div>
         </div>

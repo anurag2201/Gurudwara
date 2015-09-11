@@ -3,7 +3,7 @@
     padding-top: 20px;
 }
 .event-container {
-    width: 320px;
+    width: 300px;
     margin: 0px auto;
 }
 
@@ -23,7 +23,7 @@
 }
 div.hasDatepicker {
     margin: 0px auto 20px;
-    max-width: 320px;
+    max-width: 300px;
 }
 a.ui-datepicker-next, a.ui-datepicker-prev {
     top: 2px !important;

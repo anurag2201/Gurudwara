@@ -1,8 +1,26 @@
 .page-container{
-    max-width: 700px;
+    /*max-width: 700px;*/
     padding-top: 20px;
 }
+.event-container {
+    width: 320px;
+    margin: 0px auto;
+}
 
+.event-item {
+    font-size: 1.5em;
+    padding: 5px 0px;
+}
+
+.event-item-dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #CCC;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
 div.hasDatepicker {
     margin: 0px auto 20px;
     max-width: 320px;
@@ -59,7 +77,27 @@ a.ui-datepicker-next, a.ui-datepicker-prev {
     color: #ffffff !important;
     border-radius: 50%;
 }
+.ui-datepicker {
+    border: 2px solid #2DC3FF;
+}
 
+.ui-datepicker th {
+    background-color: transparent;
+    border: none;
+    color: #2DC3FF;
+}
+
+.ui-datepicker td, .ui-datepicker .ui-datepicker-header {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    color: #2DC3FF;
+}
+
+span.ui-state-default {
+    background-color: transparent !important;
+    border: none !important;
+    color: #2DC3FF !important;
+}
 /*.event:nth-child(1) a {
     background-color: #DC143C !important;
 }

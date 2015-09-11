@@ -14,17 +14,18 @@
     padding: .5%;
 }
 .page-container{
-    max-width: 700px;
+    /*max-width: 700px;*/
 }
 
 .photo-location{
-    background-color: #EEE;
-    display: inline-block;
+    background-color: transparent;
     padding: 7px 20px;
-    font-size: 1.2em;
-    border-radius: 16px;
-    border: 1px solid #CCC;
-    margin: 20px 5px;
+    font-size: 1.5em;
+    border: 2px solid #2DC3FF;
+    margin: 20px 10px;
+    color: #2DC3FF;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .photo-video-link {

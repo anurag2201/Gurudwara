@@ -24,7 +24,7 @@ gd.controller('homeCTRL', function($scope, $http, $filter) {
             beforeShowDay: $scope.available
         });
         $.mobile.loading("hide");
-        setTimeout(function (){
+        setTimeout(function() {
             $scope.changeColor();
         }, 500);
     };
@@ -43,10 +43,14 @@ gd.controller('homeCTRL', function($scope, $http, $filter) {
             console.log($scope.colors[index]);
             $(elt).children("a").css("background-color", $scope.colors[index]);
         });
-        $(".table-container table tbody tr").each(function(index, elt) {
-            $(elt).children("td").css("color", $scope.colors[index]);
+//        $(".table-container table tbody tr").each(function(index, elt) {
+//            $(elt).children("td").css("color", $scope.colors[index]);
+//        });
+        $(".event-item").each(function(index, elt) {
+            $(elt).css("color", $scope.colors[index]);
+            $(elt).children(".event-item-dot").css("background-color", $scope.colors[index]);
         });
-    }
+    };
 //    $scope.calendar();
 
     $scope.getCalendar = function() {
@@ -95,7 +99,8 @@ function changeColor() {
     $(".event-gd").each(function(index, elt) {
         $(elt).children("a").css("background-color", colors[index]);
     });
-    $(".table-container table tbody tr").each(function(index, elt) {
-        $(elt).children("td").css("color", colors[index]);
+    $(".event-item").each(function(index, elt) {
+        $(elt).css("color", colors[index]);
+        $(elt).children(".event-item-dot").css("background-color", colors[index]);
     });
 }

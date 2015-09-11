@@ -39,7 +39,7 @@ and open the template in the editor.
                     <br/>
                     <br/>
                     <div class="table-container">
-                        <table data-role="table" id="calendar-table" data-mode="reflow" class="movie-list ui-responsive">
+<!--                        <table data-role="table" id="calendar-table" data-mode="reflow" class="movie-list ui-responsive">
                             <thead>
                                 <tr>
                                     <th data-priority="1">Date</th>
@@ -52,7 +52,12 @@ and open the template in the editor.
                                     <td>{{calendar.eventTitle}}</td>
                                 </tr>
                             </tbody>
-                        </table>
+                        </table>-->
+                        <div class="event-container">
+                            <div class="event-item" data-ng-repeat="calendar in calendarArr">
+                                <span class="event-item-dot"></span> {{calendar.eventTitle}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

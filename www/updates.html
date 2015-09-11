@@ -37,6 +37,7 @@ and open the template in the editor.
                     </div>
                     
                     <button data-ng-click="getUpdates()" data-ng-if="rem > 0" class="ui-btn ui-mini">Load more ({{rem}})</button>
+                    <h2 data-ng-if="updates.length == 0" class="text-center">No updates</h2>
                 </div>
             </div>
         </div>
